@@ -1,5 +1,5 @@
 from sqlalchemy.orm.session import Session
-from schemas import UserBase, UserDisplay
+from schemas import UserBase
 from database.models import DbUser
 from database.hash import Hash
 

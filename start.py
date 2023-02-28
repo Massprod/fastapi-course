@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from routers import blog_get, blog_post, user
+from routers import blog_get, blog_post, user, article
 from database import models
 from database.database import engine
 
@@ -7,6 +7,7 @@ start_app = FastAPI()
 start_app.include_router(blog_get.router)
 start_app.include_router(blog_post.router)
 start_app.include_router(user.router)
+start_app.include_router(article.router)
 
 
 @start_app.get('/')
