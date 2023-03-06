@@ -3,7 +3,6 @@ from schemas import ArticleBase, ArticleDisplay
 from database import db_article
 from database.database import get_db
 from sqlalchemy.orm import Session
-from typing import List
 
 
 router = APIRouter(
