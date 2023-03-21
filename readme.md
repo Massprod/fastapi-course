@@ -1,4 +1,4 @@
-# Course repo for ![UdemyFastAPI](https://www.udemy.com/course/completefastapi/)
+# Course repo for [UdemyFastAPI](https://www.udemy.com/course/completefastapi/)
 
 - Learned
   - basics of framework
